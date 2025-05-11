@@ -1,0 +1,407 @@
+@charset "utf-8";
+
+/* アーチ文字css */
+.mv_arch_text03 {
+    font-size: 2vw;
+    font-family: dnp-shuei-ymincho-std, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+}
+
+.mv_arch_text04,
+.mv_arch_text05 {
+    font-size: 3vw;
+    font-family: dnp-shuei-ymincho-std, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.box_arch_text_04 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.kodawari_area .box_arch_text_05 {
+    position: absolute;
+    top: -6%;
+    left: 45%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    font-size: 40px;
+    font-family: dnp-shuei-ymincho-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* about */
+
+.about_area02 {
+    background: url(../images/bg_about_1440x1631.png) center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    aspect-ratio: 144/163;
+    height: auto;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.about_area02 .about_mv {
+    padding-top: 16%;
+    margin-left: 3%;
+    width: 60vw;
+}
+
+.about_area02 .about_mv .about_mv_container {
+    position: relative;
+}
+
+
+.about_area02 .about_heading img {
+    width: 40vw;
+}
+
+.about_area02::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url(../images/deco_ice_491x394.png) center center no-repeat;
+    background-size: 100%;
+    width: 30%;
+    height: 23%;
+    top: 2%;
+    right: 2%;
+    transform: rotate(175deg);
+    z-index: 1;
+}
+
+.about_area02::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url(../images/deco_ice_491x394.png) center center no-repeat;
+    background-size: 100%;
+    width: 30%;
+    height: 23%;
+    bottom: 15%;
+    left: 8%;
+    /* transform: rotate(175deg); */
+    z-index: 1;
+}
+
+.about_area02 .about_heading {
+    position: absolute;
+    top: 10%;
+}
+
+.about_area02 .box_arch_text_03 {
+    position: absolute;
+    top: -34%;
+    left: 46%;
+    transform: translateX(-50%);
+}
+
+.about_area02 .mv_arch_text03 {
+    width: 100%;
+}
+
+.about_area02 .about_text p {
+    font-size: 21px;
+    line-height: 2.5;
+}
+
+
+/* キャッチコピー */
+
+.about_area02 .catch_copy {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    gap: 12%;
+    align-items: self-start;
+    padding-top: 16%;
+}
+
+.about_area02 .catch_copy_text {
+    font-family: dnp-shuei-ymincho-std, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8vw;
+    background-color: #fff;
+    padding: 0.5em 0;
+    letter-spacing: 4px;
+}
+
+.about_area02 .catch_copy>p,
+.about_area02 .catch_copy_text {
+    padding-bottom: 0em;
+}
+
+.about_area02 .flex .catch_copy_text_02 p {
+    margin-top: 320%;
+}
+
+
+/* greeting */
+
+.greeting_area {
+    background: url(../images/bg_stripe_about_greeting_1440x550.svg) center center no-repeat;
+    width: 100%;
+    aspect-ratio: 1440 / 550;
+    height: auto;
+    position: relative;
+}
+
+.greeting_area .greeting_text {
+    text-align: center;
+    font-size: 1.3vw;
+    line-height: 2.5;
+}
+
+.greeting_area .greeting_text p:first-child {
+    padding: 14% 0 5%;
+}
+
+
+/* 3つのこだわり */
+
+.kodawari_area {
+    position: relative;
+    margin: 23% 5% 3%;
+    width: 95%;
+}
+
+.kodawari_area .pure_ice_area {
+    margin-top: 3%;
+}
+
+
+.kodawari_area .kodawari_text {
+    width: 100%;
+}
+
+.kodawari_area .pure_ice_area h3 img,
+.kodawari_area .ice_choice_area h3 img {
+    width: 30vw;
+}
+
+.kodawari_area .fruits_area h3 img {
+    width: 22vw;
+}
+
+.kodawari_area h4 {
+    font-family: dnp-shuei-ymincho-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3vw;
+    margin: 5% 0 3%;
+}
+
+.kodawari_area .fruits_area h4 {
+    font-size: 2.2vw;
+}
+
+.kodawari_area .pure_ice_area p,
+.kodawari_area .fruits_area p,
+.kodawari_area .ice_choice_area p {
+    text-align: justify;
+    line-height: 2;
+    font-size: 1.2vw;
+}
+
+.kodawari_area .kodawari_text p:last-child {
+    margin-top: 30px;
+}
+
+.kodawari_area .pure_ice_area,
+.kodawari_area .fruits_area,
+.kodawari_area .ice_choice_area {
+    gap: 3%;
+    align-items: flex-start;
+    margin-bottom: 7%;
+    width: 95%;
+}
+
+.kodawari_area .pure_ice_container,
+.kodawari_area .fruits_container,
+.kodawari_area .ice_choice_container {
+    margin-top: 5%;
+    width: 50%;
+}
+
+.kodawari_area .pure_ice_area .kodawari_img,
+.kodawari_area .fruits_area .kodawari_img,
+.kodawari_area .ice_choice_area .kodawari_img {
+    width: 50%;
+}
+
+
+.kodawari_area .bg_en_text {
+    margin-bottom: 3%;
+}
+
+.kodawari_area .bg_en_text img {
+    width: 30vw;
+}
+
+.kodawari_area .fruits_area .bg_en_text img {
+    width: 23vw;
+    margin-left: 15%;
+}
+
+.kodawari_area .fruits_heading {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.kodawari_area .pure_ice_area,
+.kodawari_area .fruits_area {
+    margin-bottom: 10%;
+}
+
+
+/* 2つの氷 */
+
+.ice_choice_area02 {
+    margin: 5% 10%;
+    /* position: relative; */
+}
+
+.ice_choice_area02 .syarisyari_area,
+.ice_choice_area02 .huwahuwa_area {
+    position: relative;
+}
+
+.ice_choice_area02 .syarisyari_area>div,
+.ice_choice_area02 .huwahuwa_area>div {
+    background: url(../images/bg_stripe_about_ice_510x263.svg)center center no-repeat;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 510 / 263;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 5%;
+    position: absolute;
+    top: 40%;
+    right: -35%;
+}
+
+.ice_choice_area02 .ice_choice_img {
+    width: 40vw;
+    z-index: 2;
+    margin-right: 60%;
+}
+
+.ice_choice_area02 .ice_choice_heading_img {
+    width: 10.8vw;
+    margin-bottom: 3%;
+}
+
+.ice_choice_area02 .ice_choice_text {
+    width: 70%;
+    font-size: 1.2vw;
+}
+
+.ice_choice_area02 h3 {
+    font-size: 1.17em;
+}
+
+
+
+/* 
+
+
+
+
+
+.ice_choice_area02 .syarisyari_area img,
+.ice_choice_area02 .huwahuwa_area img {
+    margin-bottom: 15px;
+}
+
+.ice_choice_area02 .syarisyari_area,
+.ice_choice_area02 .huwahuwa_area {
+    position: relative;
+}
+
+.ice_choice_area02 .ice_choice_img {
+    position: absolute;
+    bottom: -45%;
+    right: 75%;
+    width: 50vw;
+}
+
+.ice_choice_heading_img {
+    width: 12vw;
+} */
+
+
+/* .ice_choice_area02 .syarisyari_area {
+    margin-top: 50%;
+}
+
+.ice_choice_area02 .huwahuwa_area {
+    margin-top: 75%;
+} */
+
+.more_btn_ice03 {
+    background: url(../images/btn_ice_big_355x276.png) center center no-repeat;
+    background-size: cover;
+    width: 19vw;
+    height: 14vw;
+}
+
+.more_btn_bg03 {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 68%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.7;
+    padding: 10px;
+    gap: 5%;
+}
+
+.more_btn_bg03 p {
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.more_btn_bg03 .stickarrow {
+    width: 80%;
+    height: 5px;
+    border-bottom: 1px solid #17a5a2;
+    border-right: 1px solid #17a5a2;
+    transform: skew(55deg);
+}
+
+.more_btn_03 {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.more_btn_03 a {
+    display: inline-block;
+    transition: .3s;
+}
+
+.more_btn_03 a:hover {
+    opacity: 0.7;
+}
