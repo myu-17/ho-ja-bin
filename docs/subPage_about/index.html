@@ -25,17 +25,49 @@
 </head>
 
 <body>
-  <div class="loading">
+  <!-- <div class="loading">
     <div class="loading-animation"> <img src="../assets/images/logo_blue_102x102.svg" alt="ロゴ">
     </div>
-  </div>
-  <div class="wrap">
-    <header>
-      <div class="flex header_area">
-        <a href="#">
-          <h1><img src="../assets/images/logo_blue_102x102.svg" alt="ロゴ" width="102" height="102" class="logo_header">
-          </h1>
-        </a>
+  </div> -->
+  <header>
+    <div class="flex header_area">
+      <a href="#">
+        <h1><img src="../assets/images/logo_blue_102x102.svg" alt="ロゴ" width="102" height="102" class="logo_header">
+        </h1>
+      </a>
+      <ul class="flex">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Company</a>
+        </li>
+      </ul>
+    </div>
+    <div id="navArea">
+      <nav>
+        <div class="inner_nav">
+          <ul>
+            <li class="nav_list_item">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="current">
+              About
+            </li>
+            <li class="nav_list_item">
+              <a href="#">Menu</a>
+            </li>
+            <li class="nav_list_item">
+              <a href="#">News</a>
+            </li>
+            <li class="nav_list_item">
+              <a href="#">Access</a>
+            </li>
+          </ul>
+        </div>
         <ul class="flex">
           <li>
             <a href="#">FAQ</a>
@@ -47,142 +79,201 @@
             <a href="#">Company</a>
           </li>
         </ul>
+      </nav>
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <div id="navArea">
-        <nav>
-          <div class="inner_nav">
-            <ul>
-              <li class="nav_list_item">
-                <a href="../index.html">Home</a>
-              </li>
-              <li class="current">
-                About
-              </li>
-              <li class="nav_list_item">
-                <a href="#">Menu</a>
-              </li>
-              <li class="nav_list_item">
-                <a href="#">News</a>
-              </li>
-              <li class="nav_list_item">
-                <a href="#">Access</a>
-              </li>
-            </ul>
-          </div>
-          <ul class="flex">
-            <li>
-              <a href="#">FAQ</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Company</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="toggle_btn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div id="mask"></div>
-      </div>
-    </header>
-    <div class="pc_nav">
-      <ul class="nav_list flex">
-        <li class="nav_list_item">
-          <a href="../index.html">Home</a>
-        </li>
-        <li class="current">
-          About
-        </li>
-        <li class="nav_list_item">
-          <a href="#">Menu</a>
-        </li>
-        <li class="nav_list_item">
-          <a href="#">News</a>
-        </li>
-        <li class="nav_list_item">
-          <a href="#">Access</a>
-        </li>
-      </ul>
+      <div id="mask"></div>
     </div>
-    <main>
-      <section class="about_area02 flex02">
-        <div class="about_heading">
-          <div class="box_arch_text_03">
-            <h2 class="mv_arch_text03"></h2>
-          </div>
-          <img src="../assets/images/heading_about_563x170.svg" alt="台灣風かき氷" width="563" height="170" class="blur_img">
+  </header>
+  <div class="pc_nav">
+    <ul class="nav_list flex">
+      <li class="nav_list_item">
+        <a href="../index.html">Home</a>
+      </li>
+      <li class="current">
+        About
+      </li>
+      <li class="nav_list_item">
+        <a href="#">Menu</a>
+      </li>
+      <li class="nav_list_item">
+        <a href="#">News</a>
+      </li>
+      <li class="nav_list_item">
+        <a href="#">Access</a>
+      </li>
+    </ul>
+  </div>
+  <main>
+    <section class="about_area02 flex02">
+      <div class="about_heading">
+        <div class="box_arch_text_03">
+          <h2 class="mv_arch_text03"></h2>
         </div>
-        <div class="about_mv">
-          <div class="about_mv_container">
-            <img src="../assets/images/image_01_top_823x900.png" alt="かき氷" class="about_mv">
-            <div class="flex catch_copy">
-              <div class="catch_copy_text_02">
-                <p class="vertical_text catch_copy_text">果実と氷の贅沢体験。</p>
-              </div>
-              <p class="vertical_text catch_copy_text">シャリシャリ、ふわふわ。</p>
-            </div>
+        <img src="../assets/images/heading_about_563x170.svg" alt="台灣風かき氷" width="563" height="170" class="blur_img">
+      </div>
+      <div class="about_mv">
+        <div class="about_mv_container">
+          <img src="../assets/images/image_01_top_823x900.png" alt="かき氷" class="about_mv">
+          <div class="catch_copy">
+            <p class="vertical_text catch_copy_text">果実と氷の贅沢体験。</p>
+            <p class="vertical_text catch_copy_text">シャリシャリ、ふわふわ。</p>
           </div>
         </div>
-      </section>
-      <section class="flex02 greeting_area">
-        <div class="greeting_container">
-          <div class="box_arch_text_04  fadeUpTrigger">
-            <h2 class="mv_arch_text04"></h2>
+      </div>
+    </section>
+    <section class="flex02 greeting_area">
+      <div class="box_arch_text_04  fadeUpTrigger">
+        <h2 class="mv_arch_text04"></h2>
+      </div>
+      <div class="greeting_text  fadeUpTrigger">
+        <p>
+          ホージャービンでは、本場台湾の伝統と風味を大切にしながら、<br>
+          日本でも楽しんでいただけるように工夫を凝らした台湾風かき氷を提供しております。<br>
+          厳選した新鮮なフルーツと、口どけの良い氷を組み合わせたかき氷は、<br>
+          ひとくちごとに心地よい冷たさと豊かな甘みをお楽しみいただけます。</p>
+        <p>
+          当店でしか味わえない特別なひとときをお客様へお届けできるよう、<br>
+          スタッフ一同、心を込めておもてなしいたします。
+        </p>
+      </div>
+      <div class="sp_greeting_text  fadeUpTrigger">
+        <p>
+          ホージャービンでは、本場台湾の伝統と風味を大切にしながら、日本でも楽しんでいただけるように工夫を凝らした台湾風かき氷を提供しております。<br>
+          厳選した新鮮なフルーツと、口どけの良い氷を組み合わせたかき氷は、ひとくちごとに心地よい冷たさと豊かな甘みをお楽しみいただけます。</p>
+        <p>
+          当店でしか味わえない特別なひとときをお客様へお届けできるよう、スタッフ一同、心を込めておもてなしいたします。
+        </p>
+      </div>
+    </section>
+    <section class="kodawari_area flex02">
+      <div class="box_arch_text_05 fadeUpTrigger">
+        <p class="mv_arch_text05"></p>
+      </div>
+      <div class="pure_ice_area flex">
+        <div class="pure_ice_container">
+          <div class="bg_en_text">
+            <img src="../assets/images/en_text_pureice_400x88.svg" alt="pure ice" width="400" height="88">
           </div>
-          <div class="greeting_text  fadeUpTrigger">
+          <div>
+            <h3>
+              <img src="../assets/images/heading_chunbin_452x142.svg" alt="チュンビン" width="452" height="142">
+            </h3>
+          </div>
+          <div class="fadeUpTrigger">
+            <h4>
+              口どけ滑らか、クリアな味わい
+            </h4>
+          </div>
+          <div class="kodawari_text  fadeUpTrigger">
             <p>
-              ホージャービンでは、本場台湾の伝統と風味を大切にしながら、<br>
-              日本でも楽しんでいただけるように工夫を凝らした台湾風かき氷を提供しております。<br>
-              厳選した新鮮なフルーツと、口どけの良い氷を組み合わせたかき氷は、<br>
-              ひとくちごとに心地よい冷たさと豊かな甘みをお楽しみいただけます。</p>
+              純氷とは、時間をかけてじっくりと凍らせることで生まれる、透明でピュアな氷です。通常の氷とは異なり、不純物を丁寧に取り除き何度もろ過した水を使うことで、雑味がなくクリアな味わいが実現します。
+            </p>
             <p>
-              当店でしか味わえない特別なひとときをお客様へお届けできるよう、<br>
-              スタッフ一同、心を込めておもてなしいたします。
+              その透明感とピュアさは、かき氷の一口ごとに繊細な冷たさと共に、フルーツやシロップの味を引き立てます。スッと溶ける口どけと共に広がる贅沢な味わいは、他では味わえない特別な体験です。
             </p>
           </div>
         </div>
-      </section>
-      <section class="kodawari_area flex02">
-        <div class="box_arch_text_05 fadeUpTrigger">
-          <p class="mv_arch_text05"></p>
+        <div class="kodawari_img">
+          <img src="../assets/images/image_01_about_683x460.png" alt="氷" class="blur_img">
         </div>
-        <div class="pure_ice_area flex">
-          <div class="pure_ice_container">
+      </div>
+      <div class="fruits_area flex">
+        <div class="kodawari_img">
+          <img src="../assets/images/image_02_about_683x460.png" alt="フルーツ" class="blur_img">
+        </div>
+        <div class="fruits_container">
+          <div class="bg_en_text">
+            <img src="../assets/images/en_text_fruits_342x88.svg" alt="fruits" width="342" height="88">
+          </div>
+          <div class="fruits_heading">
+            <h3>
+              <img src="../assets/images/heading_syuiguo_325x143.svg" alt="シュイグオ" width="325" height="143">
+            </h3>
+          </div>
+          <div class="fadeUpTrigger">
+            <h4>
+              太陽の恵みが届ける、フレッシュな甘さ
+            </h4>
+          </div>
+          <div class="kodawari_text fadeUpTrigger">
+            <p>
+              時間をかけて、たっぷりと太陽の光を浴びて育った果実を厳選しています。選りすぐりの果実は、豊かな甘みとジューシーさを持ち、純氷のクリアな味わいと組み合わせることで、フルーツ本来の風味が一層引き立ちます。
+            </p>
+            <p>
+              ジューシーでみずみずしい果実の風味が、かき氷に溶け込むことでひと口ごとにその新鮮さと自然な甘さが広がります。果実の豊かな香りと甘さがしっかりと感じられる贅沢な味わいをお楽しみください。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="ice_choice_area flex">
+        <div class="ice_choice_container">
+          <div class="bg_en_text">
+            <img src="../assets/images/en_text_icevariations_526x188.svg" alt="ice varations" width="526" height="188">
+          </div>
+          <div>
+            <h3>
+              <img src="../assets/images/heading_pinkai_453x210.svg" alt="ピンカイシュエンズ" width="453" height="210">
+            </h3>
+          </div>
+          <div class="fadeUpTrigger">
+            <h4>
+              ふわふわ or シャリシャリ、選べる氷
+            </h4>
+          </div>
+          <div class="kodawari_text fadeUpTrigger">
+            <p>
+              当店のかき氷では、2種類の氷からお好みの食感をお選びいただけます。ひとつは、ふわふわとした軽やかな氷で、口の中でふんわり溶ける感覚と柔らかな甘さが絶妙です。もうひとつは、シャリシャリとした氷で、しっかりとした歯ごたえと爽快感をお楽しみいただけます。
+            </p>
+            <p>
+              ふわふわ氷は、まるで雲のように優しく口溶けし、シャリシャリ氷は、フルーツのフレッシュさを一層引き立てる爽快感を提供します。お好みに応じて氷の食感を選ぶことで、自分だけのかき氷体験をお楽しみいただけます。
+            </p>
+          </div>
+        </div>
+        <div class="kodawari_img">
+          <img src="../assets/images/image_03_about_683x460.png" alt="削り氷" class="blur_img">
+        </div>
+      </div>
+    </section>
+    <section class="sp_kodawari_area flex02">
+      <div class="box_arch_text_07 fadeUpTrigger">
+        <p class="mv_arch_text07"></p>
+      </div>
+      <div class="pure_ice_area flex02">
+        <div class="pure_ice_container flex02">
+          <div class="flex kodawari_heading">
+            <h3>
+              <img src="../assets/images/heading_chunbin_452x142.svg" alt="チュンビン" width="452" height="142">
+            </h3>
             <div class="bg_en_text">
               <img src="../assets/images/en_text_pureice_400x88.svg" alt="pure ice" width="400" height="88">
             </div>
-            <div>
-              <h3>
-                <img src="../assets/images/heading_chunbin_452x142.svg" alt="チュンビン" width="452" height="142">
-              </h3>
-            </div>
-            <div class="fadeUpTrigger">
-              <h4>
-                口どけ滑らか、クリアな味わい
-              </h4>
-            </div>
-            <div class="kodawari_text  fadeUpTrigger">
-              <p>
-                純氷とは、時間をかけてじっくりと凍らせることで生まれる、透明でピュアな氷です。通常の氷とは異なり、不純物を丁寧に取り除き何度もろ過した水を使うことで、雑味がなくクリアな味わいが実現します。
-              </p>
-              <p>
-                その透明感とピュアさは、かき氷の一口ごとに繊細な冷たさと共に、フルーツやシロップの味を引き立てます。スッと溶ける口どけと共に広がる贅沢な味わいは、他では味わえない特別な体験です。
-              </p>
-            </div>
+          </div>
+          <div class="fadeUpTrigger">
+            <h4>
+              口どけ滑らか、クリアな味わい
+            </h4>
           </div>
           <div class="kodawari_img">
             <img src="../assets/images/image_01_about_683x460.png" alt="氷" class="blur_img">
           </div>
-        </div>
-        <div class="fruits_area flex">
-          <div class="kodawari_img">
-            <img src="../assets/images/image_02_about_683x460.png" alt="フルーツ" class="blur_img">
+          <div class="kodawari_text  fadeUpTrigger">
+            <p>
+              純氷とは、時間をかけてじっくりと凍らせることで生まれる、透明でピュアな氷です。通常の氷とは異なり、不純物を丁寧に取り除き何度もろ過した水を使うことで、雑味がなくクリアな味わいが実現します。
+            </p>
+            <p>
+              その透明感とピュアさは、かき氷の一口ごとに繊細な冷たさと共に、フルーツやシロップの味を引き立てます。スッと溶ける口どけと共に広がる贅沢な味わいは、他では味わえない特別な体験です。
+            </p>
           </div>
-          <div class="fruits_container">
+        </div>
+      </div>
+
+      <div class="fruits_area flex02">
+        <div class="fruits_container flex02">
+          <div class="flex kodawari_heading">
             <div class="bg_en_text">
               <img src="../assets/images/en_text_fruits_342x88.svg" alt="fruits" width="342" height="88">
             </div>
@@ -191,241 +282,123 @@
                 <img src="../assets/images/heading_syuiguo_325x143.svg" alt="シュイグオ" width="325" height="143">
               </h3>
             </div>
-            <div class="fadeUpTrigger">
-              <h4>
-                太陽の恵みが届ける、フレッシュな甘さ
-              </h4>
-            </div>
-            <div class="kodawari_text fadeUpTrigger">
-              <p>
-                時間をかけて、たっぷりと太陽の光を浴びて育った果実を厳選しています。選りすぐりの果実は、豊かな甘みとジューシーさを持ち、純氷のクリアな味わいと組み合わせることで、フルーツ本来の風味が一層引き立ちます。
-              </p>
-              <p>
-                ジューシーでみずみずしい果実の風味が、かき氷に溶け込むことでひと口ごとにその新鮮さと自然な甘さが広がります。果実の豊かな香りと甘さがしっかりと感じられる贅沢な味わいをお楽しみください。
-              </p>
-            </div>
+          </div>
+          <div class="fadeUpTrigger">
+            <h4>
+              太陽の恵みが届ける、フレッシュな甘さ
+            </h4>
+          </div>
+          <div class="kodawari_img">
+            <img src="../assets/images/image_02_about_683x460.png" alt="フルーツ" class="blur_img">
+          </div>
+          <div class="kodawari_text fadeUpTrigger">
+            <p>
+              時間をかけて、たっぷりと太陽の光を浴びて育った果実を厳選しています。選りすぐりの果実は、豊かな甘みとジューシーさを持ち、純氷のクリアな味わいと組み合わせることで、フルーツ本来の風味が一層引き立ちます。
+            </p>
+            <p>
+              ジューシーでみずみずしい果実の風味が、かき氷に溶け込むことでひと口ごとにその新鮮さと自然な甘さが広がります。果実の豊かな香りと甘さがしっかりと感じられる贅沢な味わいをお楽しみください。
+            </p>
           </div>
         </div>
-        <div class="ice_choice_area flex">
-          <div class="ice_choice_container">
+      </div>
+      <div class="ice_choice_area flex02">
+        <div class="ice_choice_container flex02">
+          <div class="flex kodawari_heading">
+            <h3>
+              <img src="../assets/images/heading_pinkai_453x210.svg" alt="ピンカイシュエンズ" width="453" height="210">
+            </h3>
             <div class="bg_en_text">
               <img src="../assets/images/en_text_icevariations_526x188.svg" alt="ice varations" width="526"
                 height="188">
             </div>
-            <div>
-              <h3>
-                <img src="../assets/images/heading_pinkai_453x210.svg" alt="ピンカイシュエンズ" width="453" height="210">
-              </h3>
-            </div>
-            <div class="fadeUpTrigger">
-              <h4>
-                ふわふわ or シャリシャリ、選べる氷
-              </h4>
-            </div>
-            <div class="kodawari_text fadeUpTrigger">
-              <p>
-                当店のかき氷では、2種類の氷からお好みの食感をお選びいただけます。ひとつは、ふわふわとした軽やかな氷で、口の中でふんわり溶ける感覚と柔らかな甘さが絶妙です。もうひとつは、シャリシャリとした氷で、しっかりとした歯ごたえと爽快感をお楽しみいただけます。
-              </p>
-              <p>
-                ふわふわ氷は、まるで雲のように優しく口溶けし、シャリシャリ氷は、フルーツのフレッシュさを一層引き立てる爽快感を提供します。お好みに応じて氷の食感を選ぶことで、自分だけのかき氷体験をお楽しみいただけます。
-              </p>
-            </div>
+          </div>
+          <div class="fadeUpTrigger">
+            <h4>
+              ふわふわ or シャリシャリ、選べる氷
+            </h4>
           </div>
           <div class="kodawari_img">
             <img src="../assets/images/image_03_about_683x460.png" alt="削り氷" class="blur_img">
           </div>
-        </div>
-      </section>
-      <section class="sp_kodawari_area flex02">
-        <div class="box_arch_text_07 fadeUpTrigger">
-          <p class="mv_arch_text07"></p>
-        </div>
-        <div class="pure_ice_area flex02">
-          <div class="pure_ice_container flex02">
-            <div class="flex kodawari_heading">
-              <h3>
-                <img src="../assets/images/heading_chunbin_452x142.svg" alt="チュンビン" width="452" height="142">
-              </h3>
-              <div class="bg_en_text">
-                <img src="../assets/images/en_text_pureice_400x88.svg" alt="pure ice" width="400" height="88">
-              </div>
-            </div>
-            <div class="fadeUpTrigger">
-              <h4>
-                口どけ滑らか、クリアな味わい
-              </h4>
-            </div>
-            <div class="kodawari_img">
-              <img src="../assets/images/image_01_about_683x460.png" alt="氷" class="blur_img">
-            </div>
-            <div class="kodawari_text  fadeUpTrigger">
-              <p>
-                純氷とは、時間をかけてじっくりと凍らせることで生まれる、透明でピュアな氷です。通常の氷とは異なり、不純物を丁寧に取り除き何度もろ過した水を使うことで、雑味がなくクリアな味わいが実現します。
-              </p>
-              <p>
-                その透明感とピュアさは、かき氷の一口ごとに繊細な冷たさと共に、フルーツやシロップの味を引き立てます。スッと溶ける口どけと共に広がる贅沢な味わいは、他では味わえない特別な体験です。
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="fruits_area flex02">
-          <div class="fruits_container flex02">
-            <div class="flex kodawari_heading">
-              <div class="bg_en_text">
-                <img src="../assets/images/en_text_fruits_342x88.svg" alt="fruits" width="342" height="88">
-              </div>
-              <div class="fruits_heading">
-                <h3>
-                  <img src="../assets/images/heading_syuiguo_325x143.svg" alt="シュイグオ" width="325" height="143">
-                </h3>
-              </div>
-            </div>
-            <div class="fadeUpTrigger">
-              <h4>
-                太陽の恵みが届ける、フレッシュな甘さ
-              </h4>
-            </div>
-            <div class="kodawari_img">
-              <img src="../assets/images/image_02_about_683x460.png" alt="フルーツ" class="blur_img">
-            </div>
-            <div class="kodawari_text fadeUpTrigger">
-              <p>
-                時間をかけて、たっぷりと太陽の光を浴びて育った果実を厳選しています。選りすぐりの果実は、豊かな甘みとジューシーさを持ち、純氷のクリアな味わいと組み合わせることで、フルーツ本来の風味が一層引き立ちます。
-              </p>
-              <p>
-                ジューシーでみずみずしい果実の風味が、かき氷に溶け込むことでひと口ごとにその新鮮さと自然な甘さが広がります。果実の豊かな香りと甘さがしっかりと感じられる贅沢な味わいをお楽しみください。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="ice_choice_area flex02">
-          <div class="ice_choice_container flex02">
-            <div class="flex kodawari_heading">
-              <h3>
-                <img src="../assets/images/heading_pinkai_453x210.svg" alt="ピンカイシュエンズ" width="453" height="210">
-              </h3>
-              <div class="bg_en_text">
-                <img src="../assets/images/en_text_icevariations_526x188.svg" alt="ice varations" width="526"
-                  height="188">
-              </div>
-            </div>
-            <div class="fadeUpTrigger">
-              <h4>
-                ふわふわ or シャリシャリ、選べる氷
-              </h4>
-            </div>
-            <div class="kodawari_img">
-              <img src="../assets/images/image_03_about_683x460.png" alt="削り氷" class="blur_img">
-            </div>
-            <div class="kodawari_text fadeUpTrigger">
-              <p>
-                当店のかき氷では、2種類の氷からお好みの食感をお選びいただけます。ひとつは、ふわふわとした軽やかな氷で、口の中でふんわり溶ける感覚と柔らかな甘さが絶妙です。もうひとつは、シャリシャリとした氷で、しっかりとした歯ごたえと爽快感をお楽しみいただけます。
-              </p>
-              <p>
-                ふわふわ氷は、まるで雲のように優しく口溶けし、シャリシャリ氷は、フルーツのフレッシュさを一層引き立てる爽快感を提供します。お好みに応じて氷の食感を選ぶことで、自分だけのかき氷体験をお楽しみいただけます。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="ice_choice_area02 flex02">
-        <div class="ice_choice_area02_container">
-          <div class="syarisyari_area flex fadeUpTrigger">
-            <img src="../assets/images/image_04_about_587x633.png" alt="シャリシャリ氷" class="ice_choice_img">
-            <div>
-              <h3>
-                <img src="../assets/images/heading_tsuobin_155x80.svg" alt="ツオビン" width="155" height="80"
-                  class="ice_choice_heading_img">
-              </h3>
-              <div class="ice_choice_text">
-                <p>
-                  昔ながらのシャリシャリとした爽やかな食感。均一に削られた氷は、フルーツシロップとの相性も抜群で、暑い夏の日にぴったりです。
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="huwahuwa_area flex  fadeUpTrigger">
-            <img src="../assets/images/image_05_about_587x633.png" alt="ふわふわ氷" class="ice_choice_img">
-            <div>
-              <h3>
-                <img src="../assets/images/heading_syuefa_187x80.svg" alt="シュエファービン" width="155" height="80"
-                  class="ice_choice_heading_img">
-              </h3>
-              <div class="ice_choice_text">
-                <p>
-                  まるで雪のような軽くふわふわとした口当たり。ミルクやクリームとの相性が良く、贅沢なひとときをお楽しみいただけます。
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="more_btn_03">
-        <a href="#">
-          <div class="more_btn_ice03 flex">
-            <div class="more_btn_bg03">
-              <p>メニュー一覧へ</p>
-              <div class="stickarrow"></div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </main>
-    <div id="page_top">
-      <div class="flex to_top">
-        <a href="#"><img src="../assets/images/btn_totop_85x83.svg" alt="topに戻る" width="85" height="83"
-            class="to_top_item"></a>
-      </div>
-    </div>
-    <footer class="pc_footer">
-      <div class="flex">
-        <div class="footer_center">
-          <p class="arch_text">
-          </p>
-          <a href="#"><img src="../assets/images/logo_white_102x102.svg" alt="ロゴ" width="102" height="102"></a>
-          <div class="center_contents">
-            <div class="flex icon">
-              <a href="#">
-                <img src="../assets/images/icon_insta_33x33.svg" alt="インスタアイコン" width="33" height="33">
-              </a>
-              <a href="#">
-                <img src="../assets/images/icon_line_33x33.svg" alt="ラインアイコン" width="33" height="33">
-              </a>
-            </div>
-            <p class="copyright"><small>&copy;2024 好刨冰 All rights reserved.</small></p>
-          </div>
-        </div>
-        <div class="footer_right">
-          <address>
-            〒169-0075<br>
-            東京都新宿区高田馬場2丁目14-27<br>
-          </address>
-          <div class="tel">
-            <p>TEL:012-3456-789</p>
-          </div>
-          <p>Open:火〜日　11:00~21:00(L.o. 20:30)</p>
-          <p>Close:月・他不定休</p>
-        </div>
-      </div>
-    </footer>
-    <footer class="sp_footer">
-      <div class="flex02">
-        <div class="sp_footer_logo">
-          <div class="box_arch_text02">
-            <p class="arch_text02">
+          <div class="kodawari_text fadeUpTrigger">
+            <p>
+              当店のかき氷では、2種類の氷からお好みの食感をお選びいただけます。ひとつは、ふわふわとした軽やかな氷で、口の中でふんわり溶ける感覚と柔らかな甘さが絶妙です。もうひとつは、シャリシャリとした氷で、しっかりとした歯ごたえと爽快感をお楽しみいただけます。
+            </p>
+            <p>
+              ふわふわ氷は、まるで雲のように優しく口溶けし、シャリシャリ氷は、フルーツのフレッシュさを一層引き立てる爽快感を提供します。お好みに応じて氷の食感を選ぶことで、自分だけのかき氷体験をお楽しみいただけます。
             </p>
           </div>
-          <a href="#"><img src="../assets/images/logo_white_102x102.svg" alt="ロゴ" width="102" height="102"></a>
         </div>
-        <div class="flex icon">
-          <a href="#">
-            <img src="../assets/images/icon_insta_33x33.svg" alt="インスタアイコン" width="33" height="33">
-          </a>
-          <a href="#">
-            <img src="../assets/images/icon_line_33x33.svg" alt="ラインアイコン" width="33" height="33">
-          </a>
+      </div>
+    </section>
+    <section class="ice_choice_area02 flex02">
+      <div class="ice_choice_area02_container">
+        <div class="syarisyari_area flex fadeUpTrigger">
+          <img src="../assets/images/image_04_about_587x633.png" alt="シャリシャリ氷" class="ice_choice_img">
+          <div class="stripe_bg">
+            <h3>
+              <img src="../assets/images/heading_tsuobin_155x80.svg" alt="ツオビン" width="155" height="80"
+                class="ice_choice_heading_img">
+            </h3>
+            <div class="ice_choice_text">
+              <p>
+                昔ながらのシャリシャリとした爽やかな食感。均一に削られた氷は、フルーツシロップとの相性も抜群で、暑い夏の日にぴったりです。
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="huwahuwa_area flex  fadeUpTrigger">
+          <img src="../assets/images/image_05_about_587x633.png" alt="ふわふわ氷" class="ice_choice_img">
+          <div class="stripe_bg">
+            <h3>
+              <img src="../assets/images/heading_syuefa_187x80.svg" alt="シュエファービン" width="155" height="80"
+                class="ice_choice_heading_img">
+            </h3>
+            <div class="ice_choice_text">
+              <p>
+                まるで雪のような軽くふわふわとした口当たり。ミルクやクリームとの相性が良く、贅沢なひとときをお楽しみいただけます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="more_btn_03">
+      <a href="#">
+        <div class="more_btn_ice03 flex">
+          <div class="more_btn_bg03">
+            <p>メニュー一覧へ</p>
+            <div class="stickarrow"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </main>
+  <div id="page_top">
+    <div class="flex to_top">
+      <a href="#"><img src="../assets/images/btn_totop_85x83.svg" alt="topに戻る" width="85" height="83"
+          class="to_top_item"></a>
+    </div>
+  </div>
+  <footer class="pc_footer">
+    <div class="flex">
+      <div class="footer_center">
+        <p class="arch_text">
+        </p>
+        <a href="#"><img src="../assets/images/logo_white_102x102.svg" alt="ロゴ" width="102" height="102"></a>
+        <div class="center_contents">
+          <div class="flex icon">
+            <a href="#">
+              <img src="../assets/images/icon_insta_33x33.svg" alt="インスタアイコン" width="33" height="33">
+            </a>
+            <a href="#">
+              <img src="../assets/images/icon_line_33x33.svg" alt="ラインアイコン" width="33" height="33">
+            </a>
+          </div>
+          <p class="copyright"><small>&copy;2024 好刨冰 All rights reserved.</small></p>
+        </div>
+      </div>
+      <div class="footer_right">
         <address>
           〒169-0075<br>
           東京都新宿区高田馬場2丁目14-27<br>
@@ -433,14 +406,42 @@
         <div class="tel">
           <p>TEL:012-3456-789</p>
         </div>
-        <div class="time">
-          <p>Open:火〜日　11:00~21:00(L.o. 20:30)</p>
-          <p>Close:月・他不定休</p>
-        </div>
-        <p class="copyright"><small>&copy;2024 好刨冰 All rights reserved.</small></p>
+        <p>Open:火〜日　11:00~21:00(L.o. 20:30)</p>
+        <p>Close:月・他不定休</p>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
+  <footer class="sp_footer">
+    <div class="flex02">
+      <div class="sp_footer_logo">
+        <div class="box_arch_text02">
+          <p class="arch_text02">
+          </p>
+        </div>
+        <a href="#"><img src="../assets/images/logo_white_102x102.svg" alt="ロゴ" width="102" height="102"></a>
+      </div>
+      <div class="flex icon">
+        <a href="#">
+          <img src="../assets/images/icon_insta_33x33.svg" alt="インスタアイコン" width="33" height="33">
+        </a>
+        <a href="#">
+          <img src="../assets/images/icon_line_33x33.svg" alt="ラインアイコン" width="33" height="33">
+        </a>
+      </div>
+      <address>
+        〒169-0075<br>
+        東京都新宿区高田馬場2丁目14-27<br>
+      </address>
+      <div class="tel">
+        <p>TEL:012-3456-789</p>
+      </div>
+      <div class="time">
+        <p>Open:火〜日　11:00~21:00(L.o. 20:30)</p>
+        <p>Close:月・他不定休</p>
+      </div>
+      <p class="copyright"><small>&copy;2024 好刨冰 All rights reserved.</small></p>
+    </div>
+  </footer>
 </body>
 
 </html>

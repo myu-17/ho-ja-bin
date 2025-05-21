@@ -126,15 +126,6 @@ h4 {
 
 /* キャッチコピー */
 
-.about_area02 .catch_copy {
-    position: absolute;
-    top: 10%;
-    right: 2%;
-    gap: 12%;
-    align-items: self-start;
-    padding-top: 16%;
-}
-
 .about_area02 .catch_copy_text {
     font-family: dnp-shuei-ymincho-std, sans-serif;
     font-weight: 500;
@@ -145,13 +136,20 @@ h4 {
     letter-spacing: 4px;
 }
 
-.about_area02 .catch_copy>p,
-.about_area02 .catch_copy_text {
+.about_area02 .catch_copy p {
     padding-bottom: 0em;
 }
 
-.about_area02 .flex .catch_copy_text_02 p {
-    margin-top: 320%;
+.about_area02 .about_mv .catch_copy p:first-child {
+    position: absolute;
+    top: 37%;
+    right: 8%;
+}
+
+.about_area02 .about_mv .catch_copy p:last-child {
+    position: absolute;
+    top: 22%;
+    right: 1%;
 }
 
 
@@ -166,9 +164,10 @@ h4 {
 }
 
 .greeting_area .greeting_text {
-    text-align: center;
+    text-align: left;
     font-size: 1.3vw;
     line-height: 2.5;
+    margin-left: 10%;
 }
 
 .greeting_area .greeting_text p:first-child {
@@ -277,7 +276,6 @@ h4 {
 
 .ice_choice_area02 {
     margin: 5% 10%;
-    /* position: relative; */
 }
 
 .ice_choice_area02 .syarisyari_area,
@@ -285,80 +283,45 @@ h4 {
     position: relative;
 }
 
-.ice_choice_area02 .syarisyari_area>div,
-.ice_choice_area02 .huwahuwa_area>div {
-    background: url(../images/bg_stripe_about_ice_510x263.svg)center center no-repeat;
+.ice_choice_area02 .stripe_bg {
+    position: absolute;
+    bottom: 17%;
+    left: 42%;
+    padding: 5% 12%;
     width: 100%;
-    height: auto;
-    aspect-ratio: 510 / 263;
+    background-size: auto auto;
+    background-color: rgba(233, 255, 254, 1);
+    background-image: repeating-linear-gradient(100deg, transparent, transparent 4px, rgba(255, 254, 234, 1) 4px, rgba(255, 254, 234, 1) 8px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-end;
-    padding-right: 5%;
-    position: absolute;
-    top: 40%;
-    right: -35%;
 }
 
 .ice_choice_area02 .ice_choice_img {
     width: 40vw;
     z-index: 2;
-    margin-right: 60%;
-}
-
-.ice_choice_area02 .ice_choice_heading_img {
-    width: 10.8vw;
-    margin-bottom: 3%;
+    position: relative;
+    z-index: 1;
+    left: -37%;
 }
 
 .ice_choice_area02 .ice_choice_text {
-    width: 70%;
     font-size: 1.2vw;
 }
 
-.ice_choice_area02 h3 {
-    font-size: 1.17em;
+.ice_choice_area02 .stripe_bg h3 {
+    font-size: 0;
 }
 
-
-
-/* 
-
-
-
-
-
-.ice_choice_area02 .syarisyari_area img,
-.ice_choice_area02 .huwahuwa_area img {
-    margin-bottom: 15px;
-}
-
-.ice_choice_area02 .syarisyari_area,
-.ice_choice_area02 .huwahuwa_area {
-    position: relative;
-}
-
-.ice_choice_area02 .ice_choice_img {
-    position: absolute;
-    bottom: -45%;
-    right: 75%;
-    width: 50vw;
-}
-
-.ice_choice_heading_img {
+.ice_choice_area02 .stripe_bg h3 img {
     width: 12vw;
-} */
-
-
-/* .ice_choice_area02 .syarisyari_area {
-    margin-top: 50%;
+    margin-bottom: 10%;
 }
 
-.ice_choice_area02 .huwahuwa_area {
-    margin-top: 75%;
-} */
 
+
+
+/* more_btn */
 .more_btn_ice03 {
     background: url(../images/btn_ice_big_355x276.png) center center no-repeat;
     background-size: cover;
